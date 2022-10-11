@@ -1,0 +1,21 @@
+<!-- Replace the child element by new child element. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>New Child Element</title>
+  </head>
+  <body>
+    <div id="div1">
+      <p id="p1">This is a paragraph</p>
+    </div>
+  </body>
+  <script>
+    const parent = document.getElementById("div1");
+    const firstChild = document.getElementById("p1");
+    const newChild = document.createElement("button");
+    const childText = document.createTextNode("I'm a button");
+    newChild.appendChild(childText);
+    parent.replaceChild(newChild, firstChild);
+  </script>
+</html>

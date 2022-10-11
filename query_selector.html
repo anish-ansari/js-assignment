@@ -1,0 +1,19 @@
+<!-- Select an element with tag name using query selector function. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>New Child Element</title>
+  </head>
+  <body>
+    <div id="div1">
+      <p id="para">This is a paragraph</p>
+      <p id="para">This is another paragraph</p>
+      <p id="para">This is last paragraph</p>
+    </div>
+  </body>
+  <script>
+    const parent = document.querySelectorAll("p#para");
+    console.log(parent);
+  </script>
+</html>

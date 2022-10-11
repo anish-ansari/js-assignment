@@ -1,0 +1,17 @@
+<!-- Create an element DOM -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Create a DOM element</title>
+  </head>
+  <body>
+    <div id="emptyDiv"></div>
+  </body>
+  <script>
+    const parent = document.getElementById("emptyDiv");
+    const child = document.createElement("p");
+    child.innerHTML = "This is a paragraph.";
+    parent.appendChild(child);
+  </script>
+</html>

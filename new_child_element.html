@@ -1,0 +1,21 @@
+<!-- Create a new child element in DOM -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>New Child Element</title>
+  </head>
+  <body>
+    <div id="div1">
+      <p id="p1">This is paragraph 1</p>
+    </div>
+  </body>
+  <script>
+    const parent = document.getElementById("div1");
+    const firstChild = document.getElementById("p1");
+    const newChild = document.createElement("p");
+    const childText = document.createTextNode("This a new child paragraph");
+    newChild.appendChild(childText);
+    parent.insertBefore(newChild, firstChild);
+  </script>
+</html>
