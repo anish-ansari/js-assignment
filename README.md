@@ -1,2 +1,2 @@
-# js-assignment
+# dom-assignment
 
