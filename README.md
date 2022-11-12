@@ -1,4 +1,4 @@
-# dom-assignment
+# js-and-dom-assignment
 
 1. What are nodes in the DOM?
    
