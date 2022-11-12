@@ -1,0 +1,16 @@
+<!-- Extract the text label of a button -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Text Label Extraction</title>
+  </head>
+  <body>
+    <p>Press the button below:</p>
+    <button id="btn">Press me</button>
+  </body>
+  <script>
+    const label = document.getElementById("btn").innerHTML;
+    console.log("Text label extracted from button: " + label);
+  </script>
+</html>
